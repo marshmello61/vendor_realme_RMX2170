@@ -506,6 +506,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2170/proprietary/system_ext/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.latency@2.0.so \
     vendor/realme/RMX2170/proprietary/system_ext/lib64/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.qspmhal@1.0.so \
     vendor/realme/RMX2170/proprietary/system_ext/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.voiceprint@1.0.so \
+    vendor/realme/RMX2170/proprietary/bin/hw/android.hardware.usb@1.0-service:$(TARGET_COPY_OUT_SYSTEM)/bin/hw/android.hardware.usb@1.0-service \
+    vendor/realme/RMX2170/proprietary/etc/init/android.hardware.usb@1.0-service.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/android.hardware.usb@1.0-service.rc \
+    vendor/realme/RMX2170/proprietary/lib64/android.hardware.usb@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.usb@1.0.so \
 
 PRODUCT_PACKAGES += \
     PowerOffAlarm \
